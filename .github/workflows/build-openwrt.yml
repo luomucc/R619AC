@@ -12,11 +12,11 @@ on:
   repository_dispatch:
 #  release:
 #    types: published
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - 'r619ac.config'
+  push:
+    branches:
+      - master
+    paths:
+      - 'r619ac.config'
   schedule:
     - cron: 30 4 * * 5
 #          分 时 日 月 周5
